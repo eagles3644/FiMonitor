@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Fi Monitor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="stats_chart_hole_summary">Adds a donut hole to the pie chart.</string>
+    <string name="stats_chart_hole_title">Chart Donut Hole</string>
+    <string name="action_settings">Settings</string>
+    <string name="history">Event Log</string>
+    <string name="wifi_label_text">Wifi:</string>
+    <string name="network_info_label_text">Network:</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="clear_history">Clear Event Log</string>
+    <string name="no_history_text">No events on file yet.</string>
+    <string name="fi_app_not_installed">This application is designed for Project Fi subscribers.
+        It appears as though the Project Fi by Google application is not installed on your device.
+        If you are a Project Fi subscriber please install the Project Fi by Google application
+        in order to use this application.</string>
+    <string name="no_location_permission">This application monitors both Cellular and WiFi connectivity
+        for Project Fi subscribers. In order to monitor connectivity, Android requires location
+        and phone data. Android requires that users explicitly provide permission to location and phone data before
+        any application is allowed to access it.</string>
+    <string name="give_permission">Allow</string>
+    <string name="install">Install</string>
+    <string name="dialer_codes">Dialer Codes</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="clear_history_desc">Clears entire event log currently stored by the application.</string>
+    <string name="max_history_title">Max History Rows</string>
+    <string name="home_screen_title">Home Screen</string>
+    <string name="general_settings">General Settings</string>
+    <string name="history_settings">Event Log Settings</string>
+    <string name="wifi_hist_pref_title">WiFi Event Logging</string>
+    <string name="wifi_hist_pref_summary">Enables or Disables Wifi event logging.</string>
+    <string name="cell_hist_pref_title">Cellular Event Logging</string>
+    <string name="cell_hist_pref_summary">Enables or Disables Cellular event logging.</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_summary">Enables or Disables notifications.</string>
+    <string name="notification_type">Notification Type</string>
+    <string name="notif_type_trigger">On Trigger</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification_priority">Notification Priority</string>
+    <string name="notificaton_priority_default">Normal</string>
+    <string name="notification_trigger">Notification Triggers</string>
+    <string name="notification_show_cell_sum">Includes Cellular Connection Information in the body of Notifications.</string>
+    <string name="notification_show_cell_title">Show Cellular Info</string>
+    <string name="notification_show_wifi_sum">Includes WiFi Connection Information in the body of Notifications.</string>
+    <string name="notification_show_wifi_title">Show WiFi Info</string>
+    <string name="notification_show_buttons_sum">Includes Dialer Code shortcuts in Notifications.</string>
+    <string name="notification_show_buttons_title">Show Buttons</string>
+    <string name="notification_buttons">Notification Buttons</string>
+    <string name="notification_button1">Button 1 (Left)</string>
+    <string name="notification_button2">Button 2 (Middle)</string>
+    <string name="notification_button3">Button 3 (Right)</string>
+    <string name="sprint">Sprint</string>
+    <string name="tmobile">T-Mobile</string>
+    <string name="us_cellular">U.S. Cellular</string>
+    <string name="notification_play_sound_sum">Play default notification sound if sound is enabled.</string>
+    <string name="notification_play_sound_title">Notification Sound</string>
+    <string name="notification_vibrate_sum">Vibrate if vibration is enabled.</string>
+    <string name="notification_vibrate_title">Notification Vibration</string>
+    <string name="notification_led_sum">Use notification light if notification light is enabled.</string>
+    <string name="notification_led_title">Notification Light</string>
+    <string name="notification_show_on_lock_screen_sum">Show notification on lock screen.</string>
+    <string name="notification_show_on_lock_screen_title">Notification Lock Screen</string>
+    <string name="notification_info">Notification Information</string>
+    <string name="send_fake_notification">Send Test Notification</string>
+    <string name="rate_app">Give Feedback</string>
+    <string name="statistics">Statistics</string>
+    <string name="stats_chart_header_text">Cellular Connection Rate by Carrier</string>
+    <string name="stats_duration_spinner_label_text">Statistics Duration:</string>
+    <string name="stats_settings">Statistics Settings</string>
+    <string name="stats_chart_size_title">Chart Size</string>
+    <string name="stats_total_time_label">Total Time:</string>
+    <string name="stats_total_time_default">HH:MM:SS</string>
+    <string name="stats_total_time_tmobile_label">Time on T-Mobile:</string>
+    <string name="stats_total_time_sprint_label">Time on Sprint:</string>
+    <string name="stats_total_time_uscell_label">Time on U.S. Cellular</string>
+    <string name="stats_total_time_disconnected_label">Total Time Disconnected:</string>
+    <string name="stats_total_time_unknown_label">Time on Other:</string>
+    <string name="clear_stats">Clear</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="history_map">Event Log Map</string>
+</resources>

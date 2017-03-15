@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fiGreen">#2aa668</color>
+    <color name="fiDarkGreen">#218453</color>
+    <color name="fiBlue">#1dc0d6</color>
+
+    <color name="colorPrimary">@color/fiGreen</color>
+    <color name="colorPrimaryDark">@color/fiDarkGreen</color>
+    <color name="colorAccent">@color/fiBlue</color>
+
+    <color name="colorTMobile">#ff009f</color>
+    <color name="colorSprint">#ffe100</color>
+    <color name="colorUSCellular">#005daa</color>
+    <color name="colorOther">@color/fiGreen</color>
+    <color name="colorDisconnected">#F44336</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="max_row_entries">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="home_screen_titles">
+        <item>@string/dialer_codes</item>
+        <item>@string/history</item>
+        <item>@string/statistics</item>
+    </string-array>
+    <string-array name="notification_types">
+        <!--<item>Persistent</item>-->
+        <item>On Trigger</item>
+    </string-array>
+    <string-array name="notification_priorities">
+        <item>Max</item>
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+        <item>Min</item>
+    </string-array>
+    <string-array name="notification_triggers">
+        <item>Cell Connect/Disconnect</item>
+        <item>WiFi Connect/Disconnect</item>
+    </string-array>
+    <string-array name="notification_triggers_default">
+        <item>Cell Connect/Disconnect</item>
+    </string-array>
+    <string-array name="notification_dialer_code_shortcuts">
+        <item>Sprint</item>
+        <item>T-Mobile</item>
+        <item>U.S. Cellular</item>
+        <item>Next Carrier</item>
+        <item>Auto Switch</item>
+        <item>Repair</item>
+        <item>Info</item>
+        <item>Fi Testing Info Activity</item>
+    </string-array>
+    <string-array name="stats_carrier_spinner_vals">
+        <item>All Carriers</item>
+        <item>T-Mobile</item>
+        <item>Sprint</item>
+        <item>U.S. Cellular</item>
+    </string-array>
+    <string-array name="stats_duration_spinner_vals">
+        <item>All Available</item>
+        <item>6 Hours</item>
+        <item>12 Hours</item>
+        <item>1 Day</item>
+        <item>2 Days</item>
+        <item>3 Days</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>3 Weeks</item>
+        <item>4 Weeks</item>
+    </string-array>
+    <string-array name="stats_chart_size_entries">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="stats_chart_size_values">
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+    </string-array>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/notification_settings">
+
+        <SwitchPreference
+            android:key="pref_notif_enabled"
+            android:summary="@string/notifications_summary"
+            android:title="@string/notifications"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="pref_notif_type"
+            android:dependency="pref_notif_enabled"
+            android:title="@string/notification_type"
+            android:entries="@array/notification_types"
+            android:entryValues="@array/notification_types"
+            android:defaultValue="@string/notif_type_trigger"/>
+
+        <MultiSelectListPreference
+            android:key="pref_notif_trigger"
+            android:dependency="pref_notif_enabled"
+            android:title="@string/notification_trigger"
+            android:entries="@array/notification_triggers"
+            android:entryValues="@array/notification_triggers"
+            android:defaultValue="@array/notification_triggers_default"/>
+
+        <ListPreference
+            android:key="pref_notif_priority"
+            android:dependency="pref_notif_enabled"
+            android:title="@string/notification_priority"
+            android:entries="@array/notification_priorities"
+            android:entryValues="@array/notification_priorities"
+            android:defaultValue="@string/notificaton_priority_default"/>
+
+        <SwitchPreference
+            android:key="pref_notif_show_on_lock_screen"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_show_on_lock_screen_sum"
+            android:title="@string/notification_show_on_lock_screen_title"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pref_notif_play_sound"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_play_sound_sum"
+            android:title="@string/notification_play_sound_title"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pref_notif_vibrate"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_vibrate_sum"
+            android:title="@string/notification_vibrate_title"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pref_notif_led"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_led_sum"
+            android:title="@string/notification_led_title"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/notification_info"
+        android:dependency="pref_notif_enabled">
+
+        <SwitchPreference
+            android:key="pref_notif_show_cellular"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_show_cell_sum"
+            android:title="@string/notification_show_cell_title"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pref_notif_show_wifi"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_show_wifi_sum"
+            android:title="@string/notification_show_wifi_title"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:key="pref_notif_show_buttons"
+            android:dependency="pref_notif_enabled"
+            android:summary="@string/notification_show_buttons_sum"
+            android:title="@string/notification_show_buttons_title"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/notification_buttons"
+        android:dependency="pref_notif_show_buttons">
+
+        <ListPreference
+            android:key="pref_notif_button1"
+            android:title="@string/notification_button1"
+            android:entryValues="@array/notification_dialer_code_shortcuts"
+            android:entries="@array/notification_dialer_code_shortcuts"
+            android:defaultValue="@string/sprint"/>
+        <ListPreference
+            android:key="pref_notif_button2"
+            android:title="@string/notification_button2"
+            android:entryValues="@array/notification_dialer_code_shortcuts"
+            android:entries="@array/notification_dialer_code_shortcuts"
+            android:defaultValue="@string/tmobile"/>
+        <ListPreference
+            android:key="pref_notif_button3"
+            android:title="@string/notification_button3"
+            android:entryValues="@array/notification_dialer_code_shortcuts"
+            android:entries="@array/notification_dialer_code_shortcuts"
+            android:defaultValue="@string/us_cellular"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

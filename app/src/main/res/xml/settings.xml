@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general_settings">
+        <ListPreference
+            android:key="pref_home_fragment2"
+            android:title="@string/home_screen_title"
+            android:entryValues="@array/home_screen_titles"
+            android:entries="@array/home_screen_titles"
+            android:defaultValue="@string/dialer_codes"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/history_settings">
+
+        <SwitchPreference
+            android:key="pref_wifi_history"
+            android:summary="@string/wifi_hist_pref_summary"
+            android:title="@string/wifi_hist_pref_title"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:key="pref_cell_history"
+            android:summary="@string/cell_hist_pref_summary"
+            android:title="@string/cell_hist_pref_title"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:key="pref_clear_history"
+            android:summary="@string/clear_history_desc"
+            android:title="@string/clear_history"/>
+
+        <ListPreference
+            android:key="pref_max_history_rows"
+            android:title="@string/max_history_title"
+            android:entries="@array/max_row_entries"
+            android:entryValues="@array/max_row_entries"
+            android:defaultValue="100"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/stats_settings">
+        <ListPreference
+            android:key="pref_stat_chart_size"
+            android:title="@string/stats_chart_size_title"
+            android:entries="@array/stats_chart_size_entries"
+            android:entryValues="@array/stats_chart_size_values"
+            android:defaultValue="300"/>
+        <SwitchPreference
+            android:key="pref_chart_hole"
+            android:summary="@string/stats_chart_hole_summary"
+            android:title="@string/stats_chart_hole_title"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
